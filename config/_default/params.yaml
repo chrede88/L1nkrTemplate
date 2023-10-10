@@ -1,0 +1,53 @@
+############################
+## Author
+############################
+
+author:
+  name: "L1nkr"
+  image: "author.jpeg"
+  greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
+
+############################
+## Links
+############################
+
+links:
+  - github: https://github.com/chrede88/L1nkr
+  - link: https://github.com/chrede88/Readme.md
+  - website: https://gohugo.io
+  # - x-twitter: 
+  # - mastodon: 
+  # - linkedin: 
+  # - instagram: 
+  # - reddit: 
+  # - telegram: 
+  # - whatsapp: 
+  # - signal: 
+  # - codepen: 
+  # - dev: 
+  # - email: 
+  # - website: 
+  # - link: 
+  # - discord: 
+  # - orcid: 
+  # - slack: 
+  # - stack-overflow: 
+  # - twitch: 
+  # - patreon: 
+  # - soundcloud: 
+  # - dribbble: 
+  # - stack-exchange: 
+  # - tiktok: 
+  # - youtube: 
+  # - keybase: 
+  # - flickr: 
+  # - tumblr: 
+  # - kickstarter: 
+  # - snapchat: 
+
+############################
+## Colunms of Links
+############################
+
+# between 2 & 6 columns are supported (both incl)
+columns: 3
