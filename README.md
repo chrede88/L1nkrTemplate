@@ -1,5 +1,10 @@
 # L1nkr - Template
 ![L1nkr - Simple LinkTree Hugo Theme](https://raw.githubusercontent.com/chrede88/l1nkr/main/images/screenshot.png)
+
+<p align="center">
+  <img src="https://github.com/Chrede88/L1nkrTemplate/actions/workflows/testBuild.yml/badge.svg" alt="Template Build">
+</p>
+
 L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is designed mobile-first, with an very intuative interface.
 
 ## Installation
