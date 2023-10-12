@@ -9,17 +9,18 @@ L1nkr is a simple LinkTree type [Hugo](https://gohugo.io) theme. The theme is de
 ```shell
 git clone https://github.com/<username>/<reponame>
 ```
-3) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
-4) In a terminal/commandline, move to the newly created folder using `cd`.
-5) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `localhost:1313` in a browser.
-6) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
-7) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
+3) Change the module name to match your github repo in `go.mod`.
+4) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
+5) In a terminal/commandline, move to the newly created folder using `cd`.
+6) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `localhost:1313` in a browser.
+7) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
+8) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
 
 ---
 
 ## Features
 
-- Simple LinkTree theme, design for mobile-first.
+- Simple LinkTree theme, designed for mobile-first.
 - Automatically dark mode (based on system setttings).
 - Emoji support for a fun design.
 - More than 30 supported brand links.
@@ -46,6 +47,8 @@ author:
 links:
   - github: https://github.com/username/
   - facebook: https://facebook.com/
+
+columns: 3
 ```
 
 Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported links, see list below.
@@ -60,4 +63,22 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 | stack-overflow | stack-exchange | twitch | patreon |
 | soundcloud | dribbble | tiktok | youtube |
 | keybase | flickr | tumblr | kickstarter |
-| snapchat | | | |
+| snapchat | email | link | website |
+
+## Update the Theme Version
+
+The theme version used to build the site is defined in `go.mod` file.
+
+The best practice is to update to released and tested versions. To update to a specific version execute the following command in a terminal/commandline (at the root path of your site repo):
+
+```shell
+  hugo mod get github.com/Chrede88/L1nkr@vX.Y.Z
+```
+Replace X,Y & Z with the corresponding version numbers. You can find the releases [here](https://github.com/Chrede88/L1nkr/releases). Please check if any breaking changes are listed under the release you want to update to, before proceeding.
+
+### Danger Zone
+If you like to live on the edge, you can get the lastest commit by using the following command:
+```shell
+  hugo mod get -u github.com/Chrede88/L1nkr
+```
+This might break your site, as these commits might not have been tested yet.
