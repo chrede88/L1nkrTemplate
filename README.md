@@ -61,14 +61,17 @@ Links are defined by the name (i.e. "github" or "facebook"). The names must matc
 ### Supported Links
 | **Support Links** | **Support Links** | **Support Links** | **Support Links** |
 | --- | --- | --- | --- |
-| github | gitlab | facebook | x-twitter |
-| mastodon | linkedin | instagram | reddit |
-| telegram | whatsapp | signal | codepen |
-| dev | discord | orcid | slack |
-| stack-overflow | stack-exchange | twitch | patreon |
-| soundcloud | dribbble | tiktok | youtube |
-| keybase | flickr | tumblr | kickstarter |
-| snapchat | email | link | website |
+| bandcamp | bitbucket | bluesky| codepen |
+| dev | discord | dribbble | email |
+| etsy | facebook | flickr | foursquare |
+| github | gitlab | instagram | keybase |
+| kickstarter | link | linkedin | mastodon |
+| medium | orcid | patreon | pinterest |
+| reddit | signal | skype | slack |
+| snapchat | soundcloud | spotify | stack-exchange |
+| stack-overflow | strava | telegram | tiktok |
+| tumblr | twitch | untappd | website |
+| whatsapp | x-twitter | youtube | |
 
 ## Update the Theme Version
 

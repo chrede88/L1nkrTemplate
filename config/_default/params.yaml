@@ -26,8 +26,6 @@ links:
   # - codepen: 
   # - dev: 
   # - email: 
-  # - website: 
-  # - link: 
   # - discord: 
   # - orcid: 
   # - slack: 
@@ -43,7 +41,18 @@ links:
   # - flickr: 
   # - tumblr: 
   # - kickstarter: 
-  # - snapchat: 
+  # - snapchat:
+  # - bluesky: 
+  # - bitbucket: 
+  # - bandcamp: 
+  # - etsy: 
+  # - spotify: 
+  # - pinterest: 
+  # - strava: 
+  # - untappd: 
+  # - skype: 
+  # - medium: 
+  # - foursquare: 
 
 ############################
 ## Colunms of Links
