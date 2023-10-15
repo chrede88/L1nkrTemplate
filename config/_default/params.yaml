@@ -59,7 +59,7 @@ links:
 ############################
 
 # between 2 & 6 columns are supported (both incl)
-columns: 6
+columns: 3
 
 ###############################
 ## OpenGraph & Twitter Cards
