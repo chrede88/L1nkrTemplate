@@ -17,7 +17,7 @@ git clone https://github.com/<username>/<reponame>
 3) Change the module name to match your github repo in `go.mod`.
 4) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
 5) In a terminal/commandline, move to the newly created folder using `cd`.
-6) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `localhost:1313` in a browser.
+6) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `localhost:1313`  (actual URL will be outputted in the CLI) in a browser.
 7) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
 8) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
 
@@ -28,7 +28,7 @@ git clone https://github.com/<username>/<reponame>
 - Simple LinkTree theme, designed for mobile-first.
 - Automatically dark mode (based on system setttings).
 - Emoji support for a fun design.
-- More than 30 supported brand links.
+- More than 40 supported brand links.
 
 ---
 
