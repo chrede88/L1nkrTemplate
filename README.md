@@ -129,3 +129,21 @@ If you like to live on the edge, you can get the lastest commit by using the fol
   hugo mod get -u github.com/Chrede88/L1nkr
 ```
 This might break your site, as these commits might not have been tested yet.
+
+---
+
+## Deploy on Github Pages
+You can very easily deploy your site using Github Pages. Included in this template is a Github Action workflow that will build and deploy your site to Github Pages automatically:+1:
+
+You can find the workflow here `./.github/deploymentWorkflow/buildDeploy.yml`. To use this, move it to `./.github/workflows/`. In this folder you'll find another workflow `testBuild.yml`. This workflow is not needed for anything, you can remove it if you want.
+
+The workflow is already set up and ready to go, but go through it and spend some time to understand what's going on. Otherwise, it'll always be this black box of magic that you can't fix when it breaks!
+
+Last step: Go to Settings -> Pages -> Build and deployment -> Set the Source to "Github Actions".
+
+Next time you publish a release this workflow will build and deploy your site :tada:
+
+Your site will be published to the following URL:
+`https://<username>.github.io/<repo>`, where `<username>` and `<repo>` is your Github username and the name of your repository.
+
+
