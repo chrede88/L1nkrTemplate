@@ -1,10 +1,9 @@
 name: Clean Template
 
 on:
-  # run when branch created (repo generated from template or forked)
+  # run when branch created (repo generated from template)
   create:
-  fork:
-
+    
 # only keep latest run of this workflow
 concurrency:
   group: first-time-setup
