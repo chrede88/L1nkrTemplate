@@ -32,8 +32,8 @@ jobs:
       - name: Remove unneeded files
         run: |
           # Prepare variables
-          NAME=$GITHUB_REPOSITORY_OWNER
-          USER=$GITHUB_ACTOR
+          NAME=$"{GITHUB_REPOSITORY#*/}"
+          USER=$GITHUB_REPOSITORY_OWNER
 
           # update placeholders
           sed -i "s/%NAME%/$NAME/g" .github/template-cleanup/README.md
@@ -45,7 +45,7 @@ jobs:
 
           # replace files
           cp -R .github/template-cleanup/README.md .
-          cp -R .github/template-cleanup/config/ config/_default/
+          cp -R .github/template-cleanup/config/* config/_default/
 
           # remove files
           rm -rf \
