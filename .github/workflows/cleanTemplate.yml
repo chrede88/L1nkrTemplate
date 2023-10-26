@@ -46,6 +46,7 @@ jobs:
           # replace files
           cp -R .github/template-cleanup/README.md .
           cp -R .github/template-cleanup/config/* config/_default/
+          cp -R .github/template-cleanup/go.mod .
 
           # remove files
           rm -rf \

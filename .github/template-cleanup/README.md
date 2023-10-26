@@ -9,12 +9,11 @@ Please follow the instructions below to finish the setup of your new L1nkr site.
 ```shell
 git clone https://github.com/%USER%/%NAME%
 ```
-2) Change the module name to match your github repo in `go.mod`.
-3) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
-4) In a terminal/commandline, move to the newly created folder using `cd`.
-5) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `http://localhost:1313/%NAME%/`  (actual URL will be outputted in the CLI) in a browser.
-6) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
-7) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
+2) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
+3) In a terminal/commandline, move to the newly created folder using `cd`.
+4) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `http://localhost:1313/%NAME%/`  (actual URL will be outputted in the CLI) in a browser.
+5) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
+6) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
 
 ---
 
@@ -47,7 +46,7 @@ author:
 
 links:
   - github: https://github.com/%USER%/%NAME%
-  - link: https://github.com/%USER%/$NAME$#readme
+  - link: https://github.com/%USER%/%NAME%#readme
 
 ############################
 ## Colunms of Links
