@@ -32,7 +32,7 @@ jobs:
       - name: Remove unneeded files
         run: |
           # Prepare variables
-          NAME=$"{GITHUB_REPOSITORY#*/}"
+          NAME="${GITHUB_REPOSITORY##*/}"
           USER=$GITHUB_REPOSITORY_OWNER
 
           # update placeholders
