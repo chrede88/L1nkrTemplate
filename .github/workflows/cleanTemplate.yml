@@ -30,4 +30,10 @@ jobs:
 
       # remove files not needed for user instance of template
       - name: Remove unneeded files
-        run: rm -rf .github/ISSUE_TEMPLATE/ .github/workflows/testBuild.yml
+        run: rm -rf .github/ISSUE_TEMPLATE/ .github/workflows/
+
+      # save changed files
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Setup repo"
