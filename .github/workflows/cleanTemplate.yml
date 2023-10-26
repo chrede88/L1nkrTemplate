@@ -7,7 +7,7 @@ on:
 # only keep latest run of this workflow
 concurrency:
   group: first-time-setup
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 # ADDED THIS CHANGE
 permissions: 
@@ -42,6 +42,8 @@ jobs:
           sed -i "s/%USER%/$USER/g" .github/template-cleanup/config/hugo.yaml
           sed -i "s/%NAME%/$NAME/g" .github/template-cleanup/config/params.yaml
           sed -i "s/%USER%/$USER/g" .github/template-cleanup/config/params.yaml
+          sed -i "s/%NAME%/$NAME/g" .github/template-cleanup/go.mod
+          sed -i "s/%USER%/$USER/g" .github/template-cleanup/go.mod
 
           # replace files
           cp -R .github/template-cleanup/README.md .
@@ -60,4 +62,4 @@ jobs:
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Setup repo"
+          commit_message: "Setup and populate your repo"
