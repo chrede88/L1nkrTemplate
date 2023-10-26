@@ -1,8 +1,9 @@
 name: Clean Template
 
 on:
-  # run when branch created (repo generated from template)
+  # run when branch created (repo generated from template or forked)
   create:
+  fork:
 
 # only keep latest run of this workflow
 concurrency:
