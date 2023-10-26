@@ -1,0 +1,77 @@
+############################
+## Author
+############################
+
+author:
+  name: %USER%
+  image: author.jpeg
+  greeting: "Your new L1nkr site :tada:"
+  icon: ":wave:"
+
+############################
+## Links
+############################
+
+links:
+  - github: https://github.com/%USER%/%NAME%
+  - link: https://github.com/%USER%/$NAME$#readme
+  # - website: 
+  # - x-twitter: 
+  # - mastodon: 
+  # - linkedin: 
+  # - instagram: 
+  # - reddit: 
+  # - telegram: 
+  # - whatsapp: 
+  # - signal: 
+  # - codepen: 
+  # - dev: 
+  # - email: 
+  # - discord: 
+  # - orcid: 
+  # - slack: 
+  # - stack-overflow: 
+  # - twitch: 
+  # - patreon: 
+  # - soundcloud: 
+  # - dribbble: 
+  # - stack-exchange: 
+  # - tiktok: 
+  # - youtube: 
+  # - keybase: 
+  # - flickr: 
+  # - tumblr: 
+  # - kickstarter: 
+  # - snapchat:
+  # - bluesky: 
+  # - bitbucket: 
+  # - bandcamp: 
+  # - etsy: 
+  # - spotify: 
+  # - pinterest: 
+  # - strava: 
+  # - untappd: 
+  # - skype: 
+  # - medium: 
+  # - foursquare: 
+  # - apple: 
+  # - amazon:
+  # - google:
+  # - paypal:
+  # - windows:
+
+############################
+## Colunms of Links
+############################
+
+# between 2 & 6 columns are supported (both incl)
+columns: 2
+
+###############################
+## OpenGraph & Twitter Cards
+###############################
+
+title: %NAME%
+description: "Demo site build with L1nkr & Hugo"
+images:
+  - thumbnail.jpeg

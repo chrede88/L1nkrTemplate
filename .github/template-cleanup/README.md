@@ -1,32 +1,20 @@
-# L1nkr - Template
+# %NAME%
 
-This is the theme template repository! **Please** follow the installation instructions below.
-If you're looking for the actual theme repository, follow this [link](https://github.com/Chrede88/L1nkr).
+Please follow the instructions below to finish the setup of your new L1nkr site.
 
 ## Installation
 
-1) Use this template by pressing `Use this template`. Don't fork this repository!
-2) Wait 20s-30s and update the page. The files in your repo are getting populated.
-3) Add a LICENSE to your repo.
-4) Clone your version of the template to your local computer:
+0) Add a LICENSE to your repo.
+1) Clone your version of the template to your local computer:
 ```shell
-git clone https://github.com/<username>/<reponame>
+git clone https://github.com/%USER%/%NAME%
 ```
-5) Change the module name to match your github repo in `go.mod`.
-6) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
-7) In a terminal/commandline, move to the newly created folder using `cd`.
-8) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `http://localhost:1313/<YourRepoName>`  (actual URL will be outputted in the CLI) in a browser.
-9) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
-10) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
-
----
-
-## Features
-
-- Simple LinkTree theme, designed for mobile-first.
-- Automatically dark mode (based on system setttings).
-- Emoji support for a fun design.
-- More than 40 supported brand links.
+2) Change the module name to match your github repo in `go.mod`.
+3) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the Configuration below.
+4) In a terminal/commandline, move to the newly created folder using `cd`.
+5) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `http://localhost:1313/%NAME%/`  (actual URL will be outputted in the CLI) in a browser.
+6) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
+7) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
 
 ---
 
@@ -36,7 +24,7 @@ All configuration is done in the two configuration files under `config/_default/
 
 `hugo.yaml`:
 ```yaml
-baseURL: 'https://username.github.io/L1nkr'
+baseURL: 'https://%USER%.github.io/%NAME%'
 title: 'L1nkr'
 ```
 
@@ -47,9 +35,9 @@ title: 'L1nkr'
 ############################
 
 author:
-  name: "L1nkr"
+  name: %USER%
   image: author.jpeg
-  greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
+  greeting: "Your new L1nkr site :tada:"
   icon: ":wave:" # outcomment (or remove) if you don't want to display the emoji
 
 
@@ -58,21 +46,21 @@ author:
 ############################
 
 links:
-  - github: https://github.com/username/
-  - facebook: https://facebook.com/
+  - github: https://github.com/%USER%/%NAME%
+  - link: https://github.com/%USER%/$NAME$#readme
 
 ############################
 ## Colunms of Links
 ############################
 
 # between 2 & 6 columns are supported (both incl)
-columns: 3
+columns: 2
 
 ###############################
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: "L1nkr"
+title: %NAME%
 description: "Demo site build with L1nkr & Hugo"
 images:
   - thumbnail.jpeg
@@ -142,6 +130,4 @@ Last step: Go to Settings -> Pages -> Build and deployment -> Set the Source to 
 Next time you publish a release this workflow will build and deploy your site :tada:
 
 Your site will be published to the following URL:
-`https://<username>.github.io/<repo>`, where `<username>` and `<repo>` is your Github username and the name of your repository.
-
-
+`https://%USER%.github.io/%NAME%`
