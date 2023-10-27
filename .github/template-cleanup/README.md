@@ -35,7 +35,7 @@ title: 'L1nkr'
 
 author:
   name: %USER%
-  image: author.jpeg
+  image: author.png
   greeting: "Your new L1nkr site :tada:"
   icon: ":wave:" # outcomment (or remove) if you don't want to display the emoji
 
@@ -62,7 +62,7 @@ columns: 2
 title: %NAME%
 description: "Demo site build with L1nkr & Hugo"
 images:
-  - thumbnail.jpeg
+  - thumbnail.png
 ```
 
 Links are defined by the name (i.e. "github" or "facebook"). The names must match one of the supported links, see list below.

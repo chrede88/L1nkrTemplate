@@ -4,7 +4,7 @@
 
 author:
   name: %USER%
-  image: author.jpeg
+  image: author.png
   greeting: "Your new L1nkr site :tada:"
   icon: ":wave:"
 
@@ -74,4 +74,4 @@ columns: 2
 title: %NAME%
 description: "Demo site build with L1nkr & Hugo"
 images:
-  - thumbnail.jpeg
+  - thumbnail.png

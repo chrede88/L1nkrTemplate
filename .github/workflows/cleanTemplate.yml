@@ -50,13 +50,19 @@ jobs:
           cp -R .github/template-cleanup/config/* config/_default/
           cp -R .github/template-cleanup/go.mod .
 
+          # download new author and thumbnail images
+          wget -O assets/author.png https://github.com/$USER.png
+          wget -O assets/thumbnail.png https://github.com/$USER.png
+
           # remove files
           rm -rf \
             .github/ISSUE_TEMPLATE/ \
             .github/workflows/ \
             .github/template-cleanup/ \
             go.sum \
-            LICENSE
+            LICENSE \
+            assets/author.jpeg \
+            assets/thumbnail.jpeg
 
       # save changed files
       - name: Commit changed files
