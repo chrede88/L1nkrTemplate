@@ -55,6 +55,13 @@ links:
 # between 2 & 6 columns are supported (both incl)
 columns: 2
 
+############################
+## Tooltips
+############################
+
+# add tooltips on all icons
+tooltip: true
+
 ###############################
 ## OpenGraph & Twitter Cards
 ###############################
