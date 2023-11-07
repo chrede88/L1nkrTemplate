@@ -50,6 +50,9 @@ jobs:
           cp -R .github/template-cleanup/config/* config/_default/
           cp -R .github/template-cleanup/go.mod .
 
+          # move files
+          mv -f .github/workflows/buildDeploy.yaml .github/deploymentWorkflow/buildDeploy.yaml
+
           # download new author and thumbnail images
           wget -O assets/author.png https://github.com/$USER.png
           wget -O assets/thumbnail.png https://github.com/$USER.png
@@ -59,6 +62,7 @@ jobs:
             .github/ISSUE_TEMPLATE/ \
             .github/workflows/ \
             .github/template-cleanup/ \
+            .github/renovate.json \
             go.sum \
             LICENSE \
             assets/author.jpeg \
