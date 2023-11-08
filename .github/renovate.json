@@ -3,6 +3,30 @@
   "extends": [
     "config:base"
   ],
+  "dependencyDashboardTitle": "Renovate Dashboard 🤖",
+  "commitMessagePrefix": "🤖",
+  "timezone": "Europe/Zurich",
+  "schedule": [
+    "after 6pm and before 6am every weekday",
+    "every weekend"
+  ],
+  "customManagers": [
+    {
+      "description": "Update Go version in Github actions",
+      "customType": "regex",
+      "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
+      "matchStrings": ["\\sgo-version: '(?<currentValue>.*)'\\s"],
+      "depNameTemplate": "go",
+      "datasourceTemplate": "golang-version",
+      "versioningTemplate": "go-mod-directive"
+    },
+    {
+      "description": "Update Hugo version in Github actions",
+      "customType": "regex",
+      "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
+      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"]
+    }
+  ],
   "packageRules": [
     {
       "matchManagers": ["gomod"],
