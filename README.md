@@ -27,6 +27,7 @@ git clone https://github.com/<username>/<reponame>
 - Automatically dark mode (based on system setttings).
 - Emoji support for a fun design.
 - More than 40 supported brand links.
+- Healthcheck endpoint (/healthcheck.json).
 
 ---
 
@@ -67,6 +68,13 @@ links:
 
 # between 2 & 6 columns are supported (both incl)
 columns: 3
+
+###########################
+## Icon text
+###########################
+
+# add the icon name to each icon
+icontext: true
 
 ############################
 ## Tooltips
@@ -127,13 +135,6 @@ The best practice is to update to released and tested versions. To update to a s
   hugo mod get github.com/Chrede88/L1nkr@vX.Y.Z
 ```
 Replace X,Y & Z with the corresponding version numbers. You can find the releases [here](https://github.com/Chrede88/L1nkr/releases). Please check if any breaking changes are listed under the release you want to update to, before proceeding.
-
-### Danger Zone
-If you like to live on the edge, you can get the lastest commit by using the following command:
-```shell
-  hugo mod get -u github.com/Chrede88/L1nkr
-```
-This might break your site, as these commits might not have been tested yet.
 
 ---
 
