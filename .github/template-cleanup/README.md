@@ -55,6 +55,13 @@ links:
 # between 2 & 6 columns are supported (both incl)
 columns: 2
 
+###########################
+## Icon text
+###########################
+
+# add the icon name to each icon
+icontext: true
+
 ############################
 ## Tooltips
 ############################
