@@ -1,4 +1,4 @@
-module github.com/Chrede88/L1nkrTemplate
+module github.com/chrede88/L1nkrTemplate
 
 go 1.21.4
 
