@@ -32,5 +32,8 @@ jobs:
           hugo-version: '0.120.4'
           extended: true
           
+      - name: Clean cache
+        run: hugo mod clean
+
       - name: Build
         run: hugo --minify
