@@ -19,3 +19,5 @@ github.com/Chrede88/L1nkr v1.5.0/go.mod h1:sy61OCXbQCfD58JxhQxgt/L/ad9fAh4tiXUPg
 github.com/Chrede88/L1nkr v1.5.1/go.mod h1:iIy8W58IM0lGIYc1rcHWOEDn/guc9FR56ciZI5wQ5x4=
 github.com/Chrede88/L1nkr v1.5.3/go.mod h1:iIy8W58IM0lGIYc1rcHWOEDn/guc9FR56ciZI5wQ5x4=
 github.com/Chrede88/L1nkr v1.6.0/go.mod h1:iIy8W58IM0lGIYc1rcHWOEDn/guc9FR56ciZI5wQ5x4=
+github.com/chrede88/L1nkr v1.7.0 h1:jjbmg01NBH04NnQMtcjS45cxvRXLD5W0pUh5SAzJWj4=
+github.com/chrede88/L1nkr v1.7.0/go.mod h1:crfvKrQqS2Wj5vWIFLDKDLHyB6Wh5ZnG1+HLt3GCawg=
