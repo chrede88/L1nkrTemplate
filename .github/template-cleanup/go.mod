@@ -2,4 +2,4 @@ module github.com/%USER%/%NAME%
 
 go 1.21.5
 
-require github.com/chrede88/L1nkr v1.8.1 // indirect
+require github.com/chrede88/L1nkr v1.8.2 // indirect
