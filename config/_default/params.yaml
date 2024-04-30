@@ -4,7 +4,7 @@
 
 author:
   name: "L1nkr"
-  image: author.jpeg
+  image: author.png
   greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
   icon: ":wave:"
 
@@ -88,4 +88,4 @@ tooltip: true
 title: "L1nkr"
 description: "Demo site build with L1nkr & Hugo"
 images:
-  - thumbnail.jpeg
+  - thumbnail.png

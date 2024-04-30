@@ -53,10 +53,6 @@ jobs:
           # move files
           mv -f .github/workflows/buildDeploy.yaml .github/deploymentWorkflow/buildDeploy.yaml
 
-          # download new author and thumbnail images
-          wget -O assets/author.png https://github.com/$USER.png
-          wget -O assets/thumbnail.png https://github.com/$USER.png
-
           # remove files
           rm -rf \
             .github/ISSUE_TEMPLATE/ \
@@ -67,6 +63,10 @@ jobs:
             LICENSE \
             assets/author.jpeg \
             assets/thumbnail.jpeg
+
+          # download new author and thumbnail images
+          wget -O assets/author.png https://github.com/$USER.png
+          wget -O assets/thumbnail.png https://github.com/$USER.png
 
       # save changed files
       - name: Commit changed files
