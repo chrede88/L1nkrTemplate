@@ -12,10 +12,6 @@
   "prHourlyLimit": 0,
   "reviewers": ["chrede88"],
   "timezone": "Europe/Zurich",
-  "schedule": [
-    "after 6pm and before 6am every weekday",
-    "every weekend"
-  ],
   "customManagers": [
     {
       "description": "Update Hugo/Go version in Github actions",
