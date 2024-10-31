@@ -14,47 +14,47 @@ author:
 
 links:
   - github: https://github.com/chrede88/L1nkr
-  - link: https://github.com/Chrede88/L1nkr#readme
+  - link: https://github.com/chrede88/L1nkr#readme
   - website: https://gohugo.io
-  # - x-twitter: 
-  # - mastodon: 
-  # - linkedin: 
-  # - instagram: 
-  # - reddit: 
-  # - telegram: 
-  # - whatsapp: 
-  # - signal: 
-  # - codepen: 
-  # - dev: 
-  # - email: 
-  # - discord: 
-  # - orcid: 
-  # - slack: 
-  # - stack-overflow: 
-  # - twitch: 
-  # - patreon: 
-  # - soundcloud: 
-  # - dribbble: 
-  # - stack-exchange: 
-  # - tiktok: 
-  # - youtube: 
-  # - keybase: 
-  # - flickr: 
-  # - tumblr: 
-  # - kickstarter: 
+  # - x-twitter:
+  # - mastodon:
+  # - linkedin:
+  # - instagram:
+  # - reddit:
+  # - telegram:
+  # - whatsapp:
+  # - signal:
+  # - codepen:
+  # - dev:
+  # - email:
+  # - discord:
+  # - orcid:
+  # - slack:
+  # - stack-overflow:
+  # - twitch:
+  # - patreon:
+  # - soundcloud:
+  # - dribbble:
+  # - stack-exchange:
+  # - tiktok:
+  # - youtube:
+  # - keybase:
+  # - flickr:
+  # - tumblr:
+  # - kickstarter:
   # - snapchat:
-  # - bluesky: 
-  # - bitbucket: 
-  # - bandcamp: 
-  # - etsy: 
-  # - spotify: 
-  # - pinterest: 
-  # - strava: 
-  # - untappd: 
-  # - skype: 
-  # - medium: 
-  # - foursquare: 
-  # - apple: 
+  # - bluesky:
+  # - bitbucket:
+  # - bandcamp:
+  # - etsy:
+  # - spotify:
+  # - pinterest:
+  # - strava:
+  # - untappd:
+  # - skype:
+  # - medium:
+  # - foursquare:
+  # - apple:
   # - amazon:
   # - google:
   # - paypal:
@@ -79,7 +79,7 @@ icontext: true
 ############################
 
 # add tooltips on all icons
-tooltip: true
+tooltip: false
 
 ###############################
 ## OpenGraph & Twitter Cards

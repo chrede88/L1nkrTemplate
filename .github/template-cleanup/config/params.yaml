@@ -15,46 +15,46 @@ author:
 links:
   - github: https://github.com/%USER%/%NAME%
   - link: https://github.com/%USER%/%NAME%#readme
-  # - website: 
-  # - x-twitter: 
-  # - mastodon: 
-  # - linkedin: 
-  # - instagram: 
-  # - reddit: 
-  # - telegram: 
-  # - whatsapp: 
-  # - signal: 
-  # - codepen: 
-  # - dev: 
-  # - email: 
-  # - discord: 
-  # - orcid: 
-  # - slack: 
-  # - stack-overflow: 
-  # - twitch: 
-  # - patreon: 
-  # - soundcloud: 
-  # - dribbble: 
-  # - stack-exchange: 
-  # - tiktok: 
-  # - youtube: 
-  # - keybase: 
-  # - flickr: 
-  # - tumblr: 
-  # - kickstarter: 
+  # - website:
+  # - x-twitter:
+  # - mastodon:
+  # - linkedin:
+  # - instagram:
+  # - reddit:
+  # - telegram:
+  # - whatsapp:
+  # - signal:
+  # - codepen:
+  # - dev:
+  # - email:
+  # - discord:
+  # - orcid:
+  # - slack:
+  # - stack-overflow:
+  # - twitch:
+  # - patreon:
+  # - soundcloud:
+  # - dribbble:
+  # - stack-exchange:
+  # - tiktok:
+  # - youtube:
+  # - keybase:
+  # - flickr:
+  # - tumblr:
+  # - kickstarter:
   # - snapchat:
-  # - bluesky: 
-  # - bitbucket: 
-  # - bandcamp: 
-  # - etsy: 
-  # - spotify: 
-  # - pinterest: 
-  # - strava: 
-  # - untappd: 
-  # - skype: 
-  # - medium: 
-  # - foursquare: 
-  # - apple: 
+  # - bluesky:
+  # - bitbucket:
+  # - bandcamp:
+  # - etsy:
+  # - spotify:
+  # - pinterest:
+  # - strava:
+  # - untappd:
+  # - skype:
+  # - medium:
+  # - foursquare:
+  # - apple:
   # - amazon:
   # - google:
   # - paypal:
@@ -79,7 +79,7 @@ icontext: true
 ############################
 
 # add tooltips on all icons
-tooltip: true
+tooltip: false
 
 ###############################
 ## OpenGraph & Twitter Cards
