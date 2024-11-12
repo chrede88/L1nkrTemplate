@@ -9,7 +9,6 @@ concurrency:
   group: first-time-setup
   cancel-in-progress: false
 
-# ADDED THIS CHANGE
 permissions:
   actions: write
   checks: write

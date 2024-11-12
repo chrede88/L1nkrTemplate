@@ -6,17 +6,14 @@ If you're looking for the actual theme repository, follow this [link](https://gi
 ## Installation
 
 1) Use this template by pressing `Use this template`. **Don't fork this repository!**
-2) Wait 20s-30s and update the page. The files in your repo are getting populated.
-3) Add a LICENSE to your repo.
+2) Wait 20s-30s and update the page. The `Clean Template` workflow will run automatically, creating/poplutating files based on your Github user.
+3) Add a LICENSE to your repository.
 4) Clone your version of the template to your local computer:
 ```shell
 git clone https://github.com/<username>/<reponame>
 ```
-5) Change the module name to match your github repo in `go.mod`.
-6) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the configuration below.
-7) All images are stored in the `assets/` folder. You can group in subfolders if you like.
-8) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `localhost:1313` (actual URL will be outputted in the CLI) in a browser.
-9) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
+5) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to your needs. Find more info on the theme [wiki](https://github.com/chrede88/L1nkr/wiki/Configuration).
+6) Build a local version of your site by executing `hugo server`, at the root of the repository. You can see the site by navigating to `localhost:1313` (actual URL will be outputted in the CLI) in a browser.
 
 ---
 
@@ -25,7 +22,7 @@ git clone https://github.com/<username>/<reponame>
 - Simple LinkTree theme, designed for mobile-first.
 - Automatically dark mode (based on system setttings).
 - Emoji support for a fun design.
-- More than 40 supported brand links.
+- More than 50 supported brand links.
 - Healthcheck endpoint (/healthcheck.json).
 
 ---

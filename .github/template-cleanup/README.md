@@ -9,10 +9,8 @@ Please follow the instructions below to finish the setup of your new L1nkr site.
 ```shell
 git clone https://github.com/%USER%/%NAME%
 ```
-2) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to the configuration below.
-3) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `http://localhost:1313/%NAME%/`  (actual URL will be outputted in the CLI) in a browser.
-4) Add a new image to the `assets/` folder, using the same name as you specified in `params.yaml`.
-5) Add a new `icon.png` file to update the favicon. The png file should be 512px by 512px in size.
+3) Modify `config/_default/hugo.yaml` and `config/_default/params.yaml` according to your needs. Find more info on the theme [wiki](https://github.com/chrede88/L1nkr/wiki/Configuration).
+4) Build a local version of your site by executing `hugo server` at the root of the repository. You can see the site by navigating to `http://localhost:1313/%NAME%/` (actual URL will be outputted in the CLI) in a browser.
 
 ---
 

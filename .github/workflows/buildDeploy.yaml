@@ -77,7 +77,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }} # https://<username>.github.io/<repo>
-    runs-on: ubuntu-latest # runner
+    runs-on: ubuntu-24.04 # runner
     needs: build # only do this if the build was succesfull
     steps:
       - name: Deploy to GitHub Pages
