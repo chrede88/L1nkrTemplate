@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-  pull_request:
+  pull_request_target:
 
 jobs:
-  build-deploy: 
+  build-deploy:
     name: Test Build template
     runs-on: ubuntu-24.04
     concurrency:
@@ -31,7 +31,7 @@ jobs:
           # renovate: datasource=github-releases depName=gohugoio/hugo
           hugo-version: '0.139.3'
           extended: true
-          
+
       - name: Clean cache
         run: hugo mod clean
 
