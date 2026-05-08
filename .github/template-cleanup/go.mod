@@ -1,5 +1,5 @@
 module github.com/%USER%/%NAME%
 
-go 1.26.2
+go 1.26.3
 
 require github.com/chrede88/L1nkr v1.10.0 // indirect
