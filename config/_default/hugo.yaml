@@ -13,8 +13,3 @@ enableEmoji: true
 disableKinds: ["taxonomy", "term"]
 locale: "en-us"
 enableRobotsTXT: true
-markup:
-  goldmark:
-    renderHooks:
-      image:
-        enableDefault: true
