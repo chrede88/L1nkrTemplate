@@ -5,4 +5,4 @@
 ############################
 
 imports:
-  - path: github.com/chrede88/L1nkr
+  - path: github.com/chrede88/L1nkr/v2
