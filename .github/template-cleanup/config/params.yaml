@@ -67,6 +67,14 @@ links:
 # between 2 & 6 columns are supported (both incl)
 columns: 2
 
+##############################
+## Monochromatic color scheme
+##############################
+
+# all links will be slate-700 (or slate-50 in dark mode)
+# https://tailwindcss.com/docs/customizing-colors
+monochrome: false
+
 ###########################
 ## Icon text
 ###########################
